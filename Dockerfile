@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 COPY app/ .
 
 # Human-readable app version
-ENV APP_VERSION=v1.0
+ENV APP_VERSION=v1.1
 
 EXPOSE 8080
 
